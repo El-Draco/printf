@@ -65,9 +65,3 @@ int	ft_printf(const char *format, ...)
 	va_end(ap);
 	return (len);
 }
-
-int main()
-{
-	ft_printf("%d %s", 25, "abcd");
-	//printf("%d %s", 25, "abcd", 25);
-}
